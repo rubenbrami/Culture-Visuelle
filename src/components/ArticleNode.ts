@@ -20,7 +20,7 @@ export default (x: number, y: number, article: ArticleDescription) => {
                 width:  ${radius*2}px;
                 height: ${radius*2}px;
             `,
-            onclick: followLink,
+            // onclick: followLink,
             src: article.thumbnail
         }),
         h('div',
@@ -31,7 +31,7 @@ export default (x: number, y: number, article: ArticleDescription) => {
                 left: ${radius}px;
                 padding-left: ${radius+5}px;
             `,
-            onclick: followLink,
+            // onclick: followLink,
         },
             [
                 h('b', {}, article.title),
